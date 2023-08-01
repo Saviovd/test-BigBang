@@ -1,0 +1,39 @@
+{
+    "navigation": [
+        {
+            "title": "Painel",
+            "url": "/"
+        },
+        {
+            "title": "Projetos",
+            "url": "/"
+        },
+        {
+            "title": "Leads",
+            "url": "/"
+        },
+        {
+            "title": "Campanhas",
+            "url": "/"
+        },
+        {
+            "title": "Notificações",
+            "url": "/"
+        }
+    ],
+    "notifications": [
+        {
+            "id": 1,
+            "message": "test"
+        },
+        {
+            "id": 1,
+            "message": "test"
+        }
+    ],
+    "user": {
+        "photo": "",
+        "name": "Usuário de teste",
+        "email": "teste@teste.com"
+    }
+}
