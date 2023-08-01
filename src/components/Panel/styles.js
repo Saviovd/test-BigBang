@@ -5,9 +5,11 @@ display: flex;
 flex-wrap: wrap;
 padding: 0 4rem;
 grid-area: panel;
-gap: 0px 15px;
+gap: 10px 15px;
 min-height: 480px;
 justify-content: center;
+align-items: flex-start;
+align-content: flex-start;
 
 .nav {
     display: flex;
@@ -23,6 +25,9 @@ justify-content: center;
 @media screen {
     @media (max-width: 1260px) {
         padding: 0 1rem;
+    }
+    @media (max-width: 1000px) {
+        min-height: 0;
     }
 }
 `
