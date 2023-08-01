@@ -9,11 +9,13 @@ const Panel = () => {
         <Card></Card>
         <Card></Card>
         <div className="nav">
-            <Loading />
-            <Loading />
-            <Loading />
+          <Loading width="100px" />
+          <Loading width="100px" />
+          <Loading width="100px" />
+          <Loading width="100px" />
+          <Loading width="100px" />
         </div>
-        <Card width={"100%"} height={'300px'}></Card>
+        <Card width={"95%"} height={"240px"}></Card>
       </PanelStyle>
     </>
   );
