@@ -1,9 +1,10 @@
 import { styled } from "styled-components";
 
 export const CardStyle = styled.div`
-   width: 50%;
+   width: 45%;
    padding: 10px;
    background-color: rgb(217 217 217);
    border-radius: 10px;
-   min-height: 200px;
+   height: 180px;
+   margin: 0 20px;
 `;

@@ -9,6 +9,7 @@ export const SideBarStyle = styled.div`
   flex-direction: column;
   position: relative;
   align-items: center;
+  grid-area: side-bar;
 
   .logo {
     display: flex;

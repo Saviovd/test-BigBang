@@ -7,5 +7,8 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
   }
 `;
