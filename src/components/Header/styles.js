@@ -3,19 +3,19 @@ import { styled } from "styled-components";
 export const HeaderStyle = styled.div`
   display: flex;
   justify-content: space-between;
-  width: 100%;
-  padding: 4rem;
+  width: 90%;
+  padding: 4rem 1rem;
+  margin: 0 auto;
   height: 150px;
   grid-area: header;
 
   .current-session {
-
     .title {
-        font-size: 2rem;
+      font-size: 2rem;
     }
     .subtitle {
-        font-size: 0.9rem;
-        font-weight: 500;
+      font-size: 0.9rem;
+      font-weight: 500;
     }
   }
 
@@ -24,13 +24,14 @@ export const HeaderStyle = styled.div`
     align-items: center;
 
     .icon-box {
-      padding: 1rem;
-      border: 2px solid rgb(90, 94, 93);
+      border: 1px solid rgb(90, 94, 93);
+      padding: 0.7rem 0.9rem;
       border-radius: 10px;
       margin: 0 10px;
+      cursor: pointer;
       .icon {
-          color: rgb(90, 94, 93);
-        font-size: 1.3rem;
+        fill: rgb(90, 94, 93);
+        font-size: 1rem;
       }
     }
   }

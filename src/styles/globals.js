@@ -10,5 +10,6 @@ export const GlobalStyle = createGlobalStyle`
     list-style-type: none;
     text-decoration: none;
     color: black;
+    background-color: rgb(239, 243, 246);
   }
 `;

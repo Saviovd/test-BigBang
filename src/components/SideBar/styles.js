@@ -10,6 +10,7 @@ export const SideBarStyle = styled.div`
   position: relative;
   align-items: center;
   grid-area: side-bar;
+  min-height: 580px;
 
   .logo {
     display: flex;
@@ -17,7 +18,13 @@ export const SideBarStyle = styled.div`
     justify-content: center;
 
     .business {
-      font-weight: 00;
+      font-weight: 600;
+
+      @media screen {
+        @media (max-width: 1075px) {
+          font-size: 16px;
+        }
+      }
     }
   }
 
@@ -30,6 +37,17 @@ export const SideBarStyle = styled.div`
         padding: 10px 0 10px 20px;
         border-radius: 20px;
       }
+    }
+  }
+
+  @media screen {
+    @media (max-width: 1260px) {
+      width: 260px;
+      padding: 2rem 1rem;
+    }
+    @media (max-width: 1075px) {
+      width: 200px;
+      padding: 2rem .5rem;
     }
   }
 `;
@@ -51,6 +69,13 @@ export const Logo = styled.div`
     right: -10%;
     bottom: -5%;
   }
+  @media screen {
+    @media (max-width: 1075px) {
+      width: 40px;
+      height: 40px;
+      margin: 0 1rem 0 0;
+    }
+  }
 `;
 
 export const Navigation = styled.nav`
@@ -67,6 +92,7 @@ export const Link = styled.a`
   align-items: center;
   justify-content: flex-start;
   padding: 10px 0 10px 20px;
+
 `;
 
 export const User = styled.div`
